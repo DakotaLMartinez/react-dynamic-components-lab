@@ -34,6 +34,13 @@
     "jsdom": "16.2.0",
     "jsdom-global": "3.0.2",
     "mocha": "^5.2.0",
-    "sinon": "^6.3.5"
-  }
+    "sinon": "^6.3.5",
+    "whatwg-url": "8.0.0"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
 }

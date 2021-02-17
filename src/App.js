@@ -10,14 +10,29 @@ class App extends Component {
   render() {
     return (
       <div id="app">
-          <BlogPost />
-          <div id="seperator"></div>
-          <div className="wrapper">
-            <ColorBox opacity={1} />
-          </div>
+        <BlogPost />
+        <div id="seperator"></div>
+        <div className="wrapper">
+          <ColorBox opacity={1} />
+        </div>
       </div>
     )
   }
 }
 
 export default App;
+
+/*
+Functional version of above component
+function App() {
+  return (
+    <div id="app">
+      <BlogPost />
+      <div id="seperator"></div>
+      <div className="wrapper">
+        <ColorBox opacity={1} />
+      </div>
+    </div>
+  )
+}
+*/
